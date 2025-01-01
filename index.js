@@ -5,6 +5,7 @@ const port =  process.env.PORT || 6001;
 const mongoose = require('mongoose');
 require('dotenv').config()
 const jwt = require('jsonwebtoken');
+require('dotenv').config();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 // middleware
